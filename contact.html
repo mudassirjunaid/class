@@ -3,7 +3,7 @@
 <head>
 
 <title>My first assignment</title>
-
+<link rel="icon" type="image/x-icon" href="/image/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -12,14 +12,14 @@
 
 <body bgcolor="brown">
 
-<h1 align="center">digital products</h1>
+<h1 align="center">Digital Products</h1>
 
 
 <hr color="pink">
 
 
 
-<a href="index.html">Home</a>
+<a href="home.html">Home</a>
 
 <a href="about.html">About</a>
 
@@ -46,18 +46,89 @@
 
 
 
-</body>
-
-
 
 <form action="submit_form.php" method="POST">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
+  <h1 align="center">Contact Us</h1>
 
-  <label for="your contact">contact:</label>
-  <textarea id="contact" name="contact" rows="1" required></textarea>
+    <label for="fname">First name:</label><br>
 
+    <input type="text" id="fname" name="fname"><br>
+ 
+   <label for="lname">Last name:</label><br>
+ 
+   <input type="text" id="lname" name="lname">
+ 
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="Address">Address:</label>
+  <input type="Address" id="Address" name="Address" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="2" required></textarea>
+
+ 
 </form>
+
+
+<hr color="red">
+ 
+
+<form>
+ 
+   <input type="checkbox" id="vehicle1" name="vehicle1" value="Smart phone">
+
+    <label for="vehicle1">
+ I have a smart phone</label><br>
+ 
+   <input type="checkbox" id="vehicle2" name="vehicle2" value="Laptop">
+   
+ <label for="vehicle2"> I have a laptop</label><br>
+ 
+   <input type="checkbox" id="vehicle3" name="vehicle3" value="Digital Watches">
+ 
+   <label for="vehicle3">
+ I have a digital watches</label>
+  
+</form>
+
+<hr color="red">
+
+ 
+
+<form>
+  
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  
+  <label for="html">HTML</label><br>
+  
+  <input type="radio" id="css" name="fav_language" value="CSS">
+ 
+   <label for="css">CSS</label><br>
+ 
+   <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+
+    <label for="javascript">JavaScript</label>
+  </form>
+
+ <hr color="red">
+ <form>
+ 
+   <label for="username">Username:</label><br>
+ 
+   <input type="text" id="username" name="username"><br>
+ 
+   <label for="pwd">Password:</label><br>
+   
+ <input type="password" id="pwd" name="pwd">
+ 
+
+    <button type="submit">Submit</button>
+</form>
+
+
+</body>
 
 <footer>mudassir@000420
 </footer>
